@@ -1,12 +1,12 @@
 import './App.css';
-import Timer from './Task-B/Timer';
-
-function App() {
-
-  
+// import Timer from './Task-B/Timer';
+import PollDisplay from './Task-A/PollDisplay'
+function App() {  
   return (
     <div className="App">
-     <Timer/>
+     {/* <Timer/> */}
+     <h1> Polling App</h1>
+     <PollDisplay/>
     </div>
   );
 }

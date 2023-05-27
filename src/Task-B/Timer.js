@@ -11,9 +11,7 @@ function Timer() {
         else {
             setCount('Time Up!');
         }
-    });
-
-   
+    });   
   return (
    <div> {count} </div>
   )
